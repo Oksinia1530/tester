@@ -17,3 +17,23 @@
 # else:
 #     print ("Boys", (I/4),"Girl", (I/2))
 
+# Счастливый билет
+# print ("Enter your six-digit ticket number ")
+# a = input ()
+# if int (a[0])+int(a[1])+int(a[2]) == int (a[3])+int(a[4])+int(a[5]):
+#     print("You are lucky!")
+# else:
+#     print("Better luck next time")
+    
+
+# Требуется определить, можно ли от шоколадки размером n × m долек отломить k долек, 
+# если разрешается сделать один разлом по прямой между дольками (то есть разломить шоколадку на два прямоугольника).
+
+# n=int(input("input n"))
+# m=int(input("input m"))
+# k=int(input("input k"))
+# if (n*m>k) and (((n*m)%k)%n==0 or ((n*m)%k)%m==0):
+#     # print (((n*m)%k)%n==0)
+#     # print (((n*m)%k)%m==0)
+#     print("yes")
+# else: print("no")
